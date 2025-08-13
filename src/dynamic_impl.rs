@@ -1,7 +1,7 @@
 pub use self::DynamicContext as Context;
 
 #[cfg(target_arch = "x86_64")]
-use sha2_impl::Sha2CrateImpl;
+use crate::sha2_impl::Sha2CrateImpl;
 
 #[cfg(feature = "zero_hash_cache")]
 use std::sync::LazyLock;

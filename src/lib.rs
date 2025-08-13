@@ -1,3 +1,5 @@
+mod sha2_impl;
+
 #[cfg(feature = "zkvm")]
 mod zkvm_impl;
 #[cfg(feature = "zkvm")]
